@@ -1,0 +1,25 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+## Build Folders ##
+bin/
+obj/
+Debug/
+Release/
+
+## Visual Studio ##
+.vs/
+*.user
+*.suo
+
+## ASP.NET Secrets and config files ##
+*.db
+*.log
+*.sqlite
+.env
+
+## Others ##
+*.cache
+*.DS_Store
+*.swp
+*.bak
+*.tmp
