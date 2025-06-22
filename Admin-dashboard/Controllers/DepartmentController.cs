@@ -48,7 +48,7 @@ namespace Admin_dashboard.Controllers
 
 			var resultDto = _mapper.Map<DepartmentDto>(department);
 			return CreatedAtAction(nameof(GetById),
-				new { id = department.Id },
+				new { id = resultDto.Id },
 				new ApiResponse<DepartmentDto>(resultDto, "The Department was added successfully."));
 		}
 

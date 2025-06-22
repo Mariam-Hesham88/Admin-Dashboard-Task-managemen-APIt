@@ -78,6 +78,15 @@ namespace Admin_dashboard.Controllers
 
 			return Ok(new ApiResponse<string>("The TaskItem was deleted successfully."));
 		}
+
+		[HttpGet("by-department/{departmentId}")]
+		public async Task<IActionResult> GetTasksByDepartment(int departmentId)
+		{
+			var tasks = await _taskItemService.GetTasksByDepartmentAsync(departmentId);
+			var dtos = _mapper.Map<IEnumerable<TaskItemDto>>(tasks);
+
+			return Ok(new ApiResponse<IEnumerable<TaskItemDto>>(dtos));
+		}
 	}
 
 }

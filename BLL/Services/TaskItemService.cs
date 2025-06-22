@@ -49,5 +49,11 @@ namespace BLL.Services
 				await _unitOfWork.CompleteAsync();
 			}
 		}
+
+		public async Task<IEnumerable<TaskItem>> GetTasksByDepartmentAsync(int departmentId)
+		{
+			return await _unitOfWork.TaskItems.FindAsync(t => t.DepartmentId == departmentId);
+		}
+
 	}
 }

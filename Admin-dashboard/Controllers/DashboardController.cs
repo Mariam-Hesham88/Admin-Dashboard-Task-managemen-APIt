@@ -23,5 +23,6 @@ namespace Admin_dashboard.Controllers
 			var stats = await _dashboardService.GetStatisticsAsync();
 			return Ok(new ApiResponse<DashboardStatsDto>(stats));
 		}
+
 	}
 }

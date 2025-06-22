@@ -15,5 +15,6 @@ namespace BLL.Services.Interfaces
 		Task AddAsync(TaskItem taskItem);
 		Task UpdateAsync(TaskItem taskItem);
 		Task DeleteAsync(int id);
+		Task<IEnumerable<TaskItem>> GetTasksByDepartmentAsync(int departmentId);
 	}
 }

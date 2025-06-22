@@ -174,3 +174,9 @@ C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\obj\Debug\net8.0\Admin-dashboard.sourcelink.json
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\Admin-dashboard\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

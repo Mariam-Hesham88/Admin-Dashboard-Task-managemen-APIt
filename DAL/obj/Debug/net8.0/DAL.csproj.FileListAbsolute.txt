@@ -12,3 +12,4 @@ C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\ref\DAL.dl
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.sourcelink.json

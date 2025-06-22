@@ -13,6 +13,7 @@ namespace DAL.Interfaces
 		IGenericRepository<Employee> Employees { get; }
 		IGenericRepository<TaskItem> TaskItems { get; }
 
+		IDashboardRepository Dashboard { get; }
 		Task<int> CompleteAsync(); //save changes
 	}
 }

@@ -24,6 +24,7 @@ namespace DAL.Repositoies
 		public IGenericRepository<Department> Departments { get; private set; }
 		public IGenericRepository<Employee> Employees { get; private set; }
 		public IGenericRepository<TaskItem> TaskItems { get; private set; }
+		public IDashboardRepository Dashboard { get; private set; }
 
 		public async Task<int> CompleteAsync()
 		{
