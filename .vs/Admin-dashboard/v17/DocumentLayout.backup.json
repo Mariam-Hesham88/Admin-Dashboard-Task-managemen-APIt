@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\entites\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\admin-dashboard\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|solutionrelative:admin-dashboard\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\bll\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|solutionrelative:bll\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\bll\\services\\interfaces\\itaskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|solutionrelative:bll\\services\\interfaces\\itaskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\admin-dashboard\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|solutionrelative:admin-dashboard\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\bll\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|solutionrelative:bll\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\admin-dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|solutionrelative:admin-dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\bll\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1BEF87A-F5F6-46FF-A6A1-EE5F2BD97B0B}|BLL\\BLL.csproj|solutionrelative:bll\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\admin-dashboard\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|solutionrelative:admin-dashboard\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\admin-dashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5CDD703-136A-41DB-B981-734541BEB0CF}|Admin-dashboard\\Admin-dashboard.csproj|solutionrelative:admin-dashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|c:\\users\\mariam\\desktop\\dashbord\\admin-dashboard\\dal\\entites\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71BC85-0A28-4A23-8EAE-6E1DD9504AEC}|DAL\\DAL.csproj|solutionrelative:dal\\entites\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,117 +50,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:30:40.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "DAL\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:30:37.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Entites\\TaskItem.cs",
-              "RelativeDocumentMoniker": "DAL\\Entites\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Entites\\TaskItem.cs",
-              "RelativeToolTip": "DAL\\Entites\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:08:35.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ITaskItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\Interfaces\\ITaskItemService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\Interfaces\\ITaskItemService.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\Interfaces\\ITaskItemService.cs",
-              "RelativeToolTip": "BLL\\Services\\Interfaces\\ITaskItemService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:01:32.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\TaskItemService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\TaskItemService.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\TaskItemService.cs",
-              "RelativeToolTip": "BLL\\Services\\TaskItemService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:01:23.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskItemController.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\TaskItemController.cs",
-              "RelativeDocumentMoniker": "Admin-dashboard\\Controllers\\TaskItemController.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\TaskItemController.cs",
-              "RelativeToolTip": "Admin-dashboard\\Controllers\\TaskItemController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswDQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T19:08:27.555Z",
+              "WhenOpened": "2025-06-22T18:08:45.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Admin-dashboard\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Admin-dashboard\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEoAAABSAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\appsettings.json",
+              "RelativeDocumentMoniker": "Admin-dashboard\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\appsettings.json",
+              "RelativeToolTip": "Admin-dashboard\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T18:03:50.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T19:04:57.05Z"
+              "WhenOpened": "2025-06-22T17:53:12.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Helpers\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "BLL\\Helpers\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Helpers\\ApiResponse.cs",
-              "RelativeToolTip": "BLL\\Helpers\\ApiResponse.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBEAAAADAAAAAAAAAA==",
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Entites\\Admin.cs",
+              "RelativeDocumentMoniker": "DAL\\Entites\\Admin.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\Entites\\Admin.cs",
+              "RelativeToolTip": "DAL\\Entites\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T18:59:46.035Z"
+              "WhenOpened": "2025-06-22T17:26:55.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Program.cs",
               "RelativeDocumentMoniker": "Admin-dashboard\\Program.cs",
               "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Program.cs",
               "RelativeToolTip": "Admin-dashboard\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T17:55:34.812Z"
+              "WhenOpened": "2025-06-15T17:55:34.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:17:25.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Admin-dashboard\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Admin-dashboard\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:17:43.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "BLL\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:17:10.619Z",
+              "EditorCaption": ""
             }
           ]
         }

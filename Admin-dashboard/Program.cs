@@ -7,6 +7,10 @@ using BLL.DTOs;
 using Microsoft.EntityFrameworkCore;
 using FluentValidation.AspNetCore;
 using FluentValidation;
+using DAL.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace Admin_dashboard
 {
@@ -24,17 +28,38 @@ namespace Admin_dashboard
 			builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 			builder.Services.AddScoped<ITaskItemsRepository, TaskItemsRepository>();
 			builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+			builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+			//builder.Services.AddScoped<IAdminRepository, IAdminRepository>();
 
 			builder.Services.AddScoped<IDepartmentService, DepartmentService>();
-			builder.Services.AddScoped<IEmployeeService, EmployeeService>();
             builder.Services.AddScoped<ITaskItemService, TaskItemService>();
+			builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+            builder.Services.AddScoped<IDashboardService, DashboardService>();
+            //builder.Services.AddScoped<IAuthService, AuthService>();
 
-            //Mapping ==> AutoMapper
-            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+			//Mapping ==> AutoMapper
+			builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 			builder.Services.AddControllers();
 			builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
+			//JWT
+			builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+				.AddJwtBearer(options =>
+				{
+					options.TokenValidationParameters = new TokenValidationParameters
+					{
+						ValidateIssuer = true,
+						ValidateAudience = true,
+						ValidateLifetime = true,
+						ValidateIssuerSigningKey = true,
+						ValidIssuer = builder.Configuration["JWT:Issuer"],
+						ValidAudience = builder.Configuration["JWT:Audience"],
+						IssuerSigningKey = new SymmetricSecurityKey(
+							Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])
+						)
+					};
+				});
 
 
 
@@ -54,10 +79,10 @@ namespace Admin_dashboard
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+			app.UseAuthentication(); // Before UseAuthorization
+			app.UseAuthorization();
 
-
-            app.MapControllers();
+			app.MapControllers();
 
             app.Run();
         }

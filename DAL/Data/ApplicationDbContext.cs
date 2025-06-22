@@ -20,6 +20,7 @@ namespace DAL.Data
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<TaskItem> Tasks { get; set; }
 
+
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer("Server=.;Database=SmartAdminDashboardDb;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated security = true; TrustServerCertificate=True");

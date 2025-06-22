@@ -1,6 +1,7 @@
 ﻿using DAL.Data;
 using DAL.Entites;
 using DAL.Interfaces;
+using DAL.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,12 +20,15 @@ namespace DAL.Repositoies
 			Departments = new GenericRepository<Department>(_context);
 			Employees = new GenericRepository<Employee>(_context);
 			TaskItems = new GenericRepository<TaskItem>(_context);
+			Dashboard = new DashboardRepository(_context);
+			Admins = new AdminRepository(_context);
 		}
 
 		public IGenericRepository<Department> Departments { get; private set; }
 		public IGenericRepository<Employee> Employees { get; private set; }
 		public IGenericRepository<TaskItem> TaskItems { get; private set; }
 		public IDashboardRepository Dashboard { get; private set; }
+		public IAdminRepository Admins { get; private set; }
 
 		public async Task<int> CompleteAsync()
 		{
