@@ -4,11 +4,13 @@ using BLL.Helpers;
 using BLL.Services.Interfaces;
 using DAL.Entites;
 using DAL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_dashboard.Controllers
 {
+	[Authorize]
 	[Route("api/v1/[controller]")]
 	[ApiController]
 	public class EmployeeController : ControllerBase

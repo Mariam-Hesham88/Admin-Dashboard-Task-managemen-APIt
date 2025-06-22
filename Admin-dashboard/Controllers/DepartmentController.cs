@@ -3,10 +3,12 @@ using BLL.DTOs;
 using BLL.Helpers;
 using BLL.Services.Interfaces;
 using DAL.Entites;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_dashboard.Controllers
 {
+	[Authorize]
 	[Route("api/v1/[controller]")]
 	[ApiController]
 	public class DepartmentController : ControllerBase

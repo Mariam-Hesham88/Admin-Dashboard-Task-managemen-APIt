@@ -1,10 +1,12 @@
 ﻿using BLL.DTOs;
 using BLL.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_dashboard.Controllers
 {
+	[AllowAnonymous]
 	[Route("api/v1/[controller]")]
 	[ApiController]
 	public class AuthController : ControllerBase

@@ -1,11 +1,13 @@
 ﻿using BLL.DTOs;
 using BLL.Helpers;
 using BLL.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_dashboard.Controllers
 {
+	[Authorize]
 	[Route("api/v1/[controller]")]
 	[ApiController]
 	public class DashboardController : ControllerBase
