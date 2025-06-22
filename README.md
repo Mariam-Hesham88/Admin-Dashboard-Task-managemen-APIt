@@ -1,48 +1,73 @@
-<<<<<<< HEAD
 # Admin Dashboard - Task Management System
 
-A task management web application built for admins to manage employees, departments, and tasks efficiently.
+A task management web application built for admins to manage departments, employees, and tasks efficiently.
 
 ---
 
-## Tech Stack
+## ✅ Tech Stack
 
-- ✅ ASP.NET Core Web API
-- ✅ Entity Framework Core
-- ✅ AutoMapper
-- ✅ FluentValidation
-- ✅ N-Tier Architecture
-- ✅ SQL Server
-- ✅ Swagger (API Documentation)
-
----
-
-## Project Structure
-📂 DAL => Data Access Layer (Entities, DbContext, Repositories)
-📂 BLL => Business Logic Layer (Services, DTOs, Mapping, Validation)
-📂 Admin-dashboard => API Layer (Controllers, Program.cs, Dependency Injection)
+- ASP.NET Core Web API (.NET 8)
+- Entity Framework Core
+- AutoMapper
+- FluentValidation
+- SQL Server
+- Swagger (OpenAPI)
+- JWT Authentication & Authorization
+- Clean N-Tier Architecture (API / BLL / DAL)
 
 ---
 
-## Features
+## 📁 Project Structure
+Admin-dashboard/
+├── DAL # Data Access Layer (DbContext, Entities, Repositories)
+├── BLL # Business Logic Layer (Services, DTOs, AutoMapper, Validators)
+└── Admin-dashboard # Web API (Controllers, Program.cs, JWT Config)
 
-- Department Management: Add / Update / Delete / Get
-- Employee Management: Add / Update / Delete / Get
-- Task Management:
-  - Assign tasks to employees
-  - Set priority, status, and deadline
-- **AutoMapper** for converting between Entities and DTOs
-- **FluentValidation** for input validation
-- **Unit of Work Pattern** with Generic Repository
-- **Unified API Response Format**
-- **Swagger UI** for easy API testing and documentation
 
 ---
-Next Enhancements (To-Do)
-1- Add Authentication and Authorization (JWT)
-2- Sent email to the employee
-3- Admin Dashboard with charts and stats
-4- Search feature
+
+## ✨ Features
+
+### Department Management
+- Add / Update / Delete / Get All / Get by ID
+
+### Employee Management
+- Add / Update / Delete / Get All / Get by ID
+
+### Task Management
+- Assign tasks to employees
+- Set priority, status, deadlines
+- Filter by department or date
+- Track status: *In Progress*, *Completed*, *Overdue*
+
+### Admin Authentication
+- Register / Login for Admins
+- JWT Token generation and validation
+- Secured routes with `[Authorize]` attribute
+
+### Dashboard Endpoint (Analytics)
+- Count of departments & employees
+- Task stats: Completed, In Progress, Overdue
+- Top department based on task volume
+
+---
+
+## Security
+
+- JWT Bearer Token Authentication
+- Authorization middleware
+- BCrypt for password hashing
+- DTO input validation via FluentValidation
+
+---
+
+## Upcoming Enhancements
+
+- 📩 Email notifications for assigned tasks  
+- 🔍 Search & filter endpoints  
+- 📈 Real-time dashboard with SignalR  
+- 🌐 Angular 17 Frontend Integration  
+- 👨‍💻 Role-based authorization  
 
 --
  **Author
@@ -51,55 +76,6 @@ Full-Stack Developer "Angular +17, .NET"
 Email: mariam.hesham.ramadan@gmail.com
 LinkedIn: https://www.linkedin.com/in/mariam-hesham-88m
 =======
-# Admin Dashboard - Task Management System
 
-A task management web application built for admins to manage employees, departments, and tasks efficiently.
-
----
-
-## Tech Stack
-
-- ✅ ASP.NET Core Web API
-- ✅ Entity Framework Core
-- ✅ AutoMapper
-- ✅ FluentValidation
-- ✅ N-Tier Architecture
-- ✅ SQL Server
-- ✅ Swagger (API Documentation)
-
----
-
-## Project Structure
-📂 DAL => Data Access Layer (Entities, DbContext, Repositories)
-📂 BLL => Business Logic Layer (Services, DTOs, Mapping, Validation)
-📂 Admin-dashboard => API Layer (Controllers, Program.cs, Dependency Injection)
-
----
-
-## Features
-
-- Department Management: Add / Update / Delete / Get
-- Employee Management: Add / Update / Delete / Get
-- Task Management:
-  - Assign tasks to employees
-  - Set priority, status, and deadline
-- **AutoMapper** for converting between Entities and DTOs
-- **FluentValidation** for input validation
-- **Unit of Work Pattern** with Generic Repository
-- **Unified API Response Format**
-- **Swagger UI** for easy API testing and documentation
-
----
-Next Enhancements (To-Do)
-1- Add Authentication and Authorization (JWT)
-2- Sent email to the employee
-3- Admin Dashboard with charts and stats
-4- Search feature
-
---
- **Author
-Mariam Hesham
-Full-Stack Developer "Angular +17, .NET"
-Email: mariam.hesham.ramadan@gmail.com
-LinkedIn: https://www.linkedin.com/in/mariam-hesham-88m
->>>>>>> bcd4beb (Add Dashboard endpoints)
+## License
+MIT License © 2025 — Mariam Hesham
