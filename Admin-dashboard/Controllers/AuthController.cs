@@ -19,18 +19,21 @@ namespace Admin_dashboard.Controllers
 		}
 
 		[HttpPost("register")]
-		public async Task<IActionResult> Register([FromBody] AdminRegisterDto dto)
+		public async Task<IActionResult> Register(AdminRegisterDto dto)
 		{
-			var token = await _authService.RegisterAsync(dto);
-			if (token == null) return BadRequest("Email already exists.");
-			return Ok(new { token });
+			var result = await _authService.RegisterAsync(dto);
+			if (result.Success)
+				return Ok("User registered successfully.");
+			return BadRequest(result.Errors);
 		}
 
 		[HttpPost("login")]
-		public async Task<IActionResult> Login([FromBody] AdminLoginDto dto)
+		public async Task<IActionResult> Login(AdminLoginDto dto)
 		{
 			var token = await _authService.LoginAsync(dto);
-			if (token == null) return Unauthorized("Invalid email or password.");
+			if (token == null)
+				return Unauthorized("Invalid credentials");
+
 			return Ok(new { token });
 		}
 	}

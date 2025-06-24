@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "Admin_dashboard.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.AdminLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin_dashboard.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.AdminRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin_dashboard.Controllers.DashboardController",
+    "Method": "GetStats",
+    "RelativePath": "api/v1/Dashboard/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Admin_dashboard.Controllers.DepartmentController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Department",
@@ -18,8 +60,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "department",
-        "Type": "DAL.Entites.Department",
+        "Name": "dto",
+        "Type": "BLL.DTOs.DepartmentDto",
         "IsRequired": true
       }
     ],
@@ -55,8 +97,8 @@
         "IsRequired": true
       },
       {
-        "Name": "department",
-        "Type": "DAL.Entites.Department",
+        "Name": "dto",
+        "Type": "BLL.DTOs.DepartmentDto",
         "IsRequired": true
       }
     ],
@@ -90,15 +132,15 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.EmployeeController",
-    "Method": "CreateEemployee",
+    "Method": "Create",
     "RelativePath": "api/v1/Employee",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "DAL.Entites.Employee",
+        "Name": "dto",
+        "Type": "BLL.DTOs.EmployeeDto",
         "IsRequired": true
       }
     ],
@@ -122,20 +164,20 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.EmployeeController",
-    "Method": "UpdateEemployee",
+    "Method": "Update",
     "RelativePath": "api/v1/Employee/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "DAL.Entites.Employee",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "dto",
+        "Type": "BLL.DTOs.EmployeeDto",
         "IsRequired": true
       }
     ],
@@ -143,7 +185,7 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.EmployeeController",
-    "Method": "DeletEemployee",
+    "Method": "Delete",
     "RelativePath": "api/v1/Employee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -169,15 +211,15 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.TaskItemController",
-    "Method": "CreateTaskItem",
+    "Method": "Create",
     "RelativePath": "api/v1/TaskItem",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "taskItem",
-        "Type": "DAL.Entites.TaskItem",
+        "Name": "dto",
+        "Type": "BLL.DTOs.TaskItemDto",
         "IsRequired": true
       }
     ],
@@ -201,17 +243,33 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.TaskItemController",
-    "Method": "UpdateTaskItem",
+    "Method": "Update",
     "RelativePath": "api/v1/TaskItem/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "taskItem",
-        "Type": "DAL.Entites.TaskItem",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       },
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.TaskItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin_dashboard.Controllers.TaskItemController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/TaskItem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "id",
         "Type": "System.Int32",
@@ -222,14 +280,14 @@
   },
   {
     "ContainingType": "Admin_dashboard.Controllers.TaskItemController",
-    "Method": "DeleteTaskItem",
-    "RelativePath": "api/v1/TaskItem/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "GetTasksByDepartment",
+    "RelativePath": "api/v1/TaskItem/by-department/{departmentId}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "departmentId",
         "Type": "System.Int32",
         "IsRequired": true
       }

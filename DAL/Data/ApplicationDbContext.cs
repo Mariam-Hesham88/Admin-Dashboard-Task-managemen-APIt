@@ -1,4 +1,5 @@
 ﻿using DAL.Entites;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,24 +9,25 @@ using System.Threading.Tasks;
 
 namespace DAL.Data
 {
-	public class ApplicationDbContext:DbContext
+	public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 	{
 		public ApplicationDbContext()
 		{
-			
+
 		}
-		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
+		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
 		public DbSet<Admin> Admins { get; set; }
 		public DbSet<Employee> Employees { get; set; }
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<TaskItem> Tasks { get; set; }
 
 
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-		{
-			optionsBuilder.UseSqlServer("Server=.;Database=SmartAdminDashboardDb;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated security = true; TrustServerCertificate=True");
-			base.OnConfiguring(optionsBuilder);
-		}
+		//protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		//{
+		//	optionsBuilder.UseSqlServer("Server=.;Database=SmartAdminDashboardDb;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated security = true; TrustServerCertificate=True");
+		//	base.OnConfiguring(optionsBuilder);
+		//}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

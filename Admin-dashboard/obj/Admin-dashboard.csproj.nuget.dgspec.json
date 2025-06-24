@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Admin-dashboard.csproj": {}
+    "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\Admin-dashboard\\Admin-dashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Admin-dashboard.csproj": {
+    "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\Admin-dashboard\\Admin-dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Admin-dashboard.csproj",
+        "projectUniqueName": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\Admin-dashboard\\Admin-dashboard.csproj",
         "projectName": "Admin-dashboard",
-        "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\Admin-dashboard.csproj",
+        "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\Admin-dashboard\\Admin-dashboard.csproj",
         "packagesPath": "C:\\Users\\Mariam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\Admin-dashboard\\obj\\",
+        "outputPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\Admin-dashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\BLL.csproj"
+              "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\BLL.csproj": {
+                "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj"
+              "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\BLL.csproj": {
+    "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\BLL.csproj",
+        "projectUniqueName": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\BLL.csproj",
+        "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Mariam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\BLL\\obj\\",
+        "outputPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,8 +133,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj"
+              "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj": {
+    "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj",
+        "projectUniqueName": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\DAL.csproj",
+        "projectPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Mariam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariam\\Desktop\\Dashbord\\Admin-dashboard\\DAL\\obj\\",
+        "outputPath": "F:\\New Start\\AdminDashboard\\Backend\\Admin-Dashboard-Task-management-API\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,6 +235,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.6, )"

@@ -13,3 +13,18 @@ C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\bin\Debug\net8.0\DAL.runtim
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\Mariam\Desktop\Dashbord\Admin-dashboard\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\bin\Debug\net8.0\DAL.deps.json
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\bin\Debug\net8.0\DAL.dll
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\bin\Debug\net8.0\DAL.pdb
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.dll
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\refint\DAL.dll
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.pdb
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+F:\New Start\AdminDashboard\Backend\Admin-Dashboard-Task-management-API\DAL\obj\Debug\net8.0\ref\DAL.dll

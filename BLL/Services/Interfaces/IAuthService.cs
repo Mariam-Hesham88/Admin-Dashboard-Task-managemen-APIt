@@ -9,7 +9,7 @@ namespace BLL.Services.Interfaces
 {
 	public interface IAuthService
 	{
-		Task<string?> RegisterAsync(AdminRegisterDto dto);
 		Task<string?> LoginAsync(AdminLoginDto dto);
+		Task<(bool Success, IEnumerable<string> Errors)> RegisterAsync(AdminRegisterDto dto);
 	}
 }
