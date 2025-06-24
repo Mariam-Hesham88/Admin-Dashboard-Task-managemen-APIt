@@ -13,7 +13,7 @@ A task management web application built for admins to manage departments, employ
 - SQL Server
 - Swagger (OpenAPI)
 - JWT Authentication & Authorization
-- Clean N-Tier Architecture (API / BLL / DAL)
+- Clean N-Tier Architecture ( API / BLL / DAL )
 
 ---
 
