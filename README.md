@@ -61,6 +61,13 @@ Admin-dashboard/
 
 ---
 
+## Api Endpoints
+![Screenshot 2025-07-01 192256](https://github.com/user-attachments/assets/7533d5e8-a938-438c-bde1-6c43d0dc5562)
+
+
+---
+
+
 ## Upcoming Enhancements
 
 - 📩 Email notifications for assigned tasks  
